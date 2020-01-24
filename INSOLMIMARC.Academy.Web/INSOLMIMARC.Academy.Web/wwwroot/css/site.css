@@ -1,0 +1,319 @@
+﻿body {
+    padding-top: 65px;
+    padding-bottom: 20px;
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    color: #37484e;
+}
+
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+
+.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+    padding-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav {
+        padding-top: 15px;
+    }
+}
+
+.user-panel {
+    float: right;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 120px;
+    padding: 10px 0;
+}
+/**#e36f26
+    #E88E09
+    #E88E4B
+*/
+.navbar-inverse {
+    background: #E88E09;
+    background: -webkit-gradient(linear, left top, right top, from(#E88E09), to(#E88E4B));
+    background: -o-linear-gradient(left, #E88E09 0%, #E88E4B 100%);
+    background: linear-gradient(to right, #E88E09 0%, #E88E4B 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E88E09', endColorstr='#E88E4B', GradientType=1);
+}
+.navbar-inverse .navbar-nav > li > a{
+    color:#ffffff;
+}
+    .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+        color: #ddd;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+
+    /*------------------
+  Hero section
+---------------------*/
+    .hero-section {
+        height: 872px;
+    }
+
+.hero-text {
+    padding-top: 330px;
+    padding-right: 50px;
+}
+
+    .hero-text h2 {
+        font-size: 72px;
+        margin-bottom: 15px;
+    }
+
+    .hero-text p {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 2;
+        margin-bottom: 20px;
+    }
+
+    .hero-text .site-btn {
+        margin-top: 50px;
+        float: left;
+        clear: both;
+    }
+
+.hero-author .hero-author-pic {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    float: left;
+}
+
+.hero-author h5 {
+    font-size: 14px;
+    margin-left: 55px;
+    padding-top: 20px;
+}
+
+    .hero-author h5 span {
+        color: #f3e830;
+    }
+
+/*------------------
+  set-bg
+---------------------*/
+.set-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+.spad {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.text-white h1,
+.text-white h2,
+.text-white h3,
+.text-white h4,
+.text-white h5,
+.text-white h6,
+.text-white p,
+.text-white span,
+.text-white li,
+.text-white a {
+    color: #fff;
+}
+.footer-section {
+    background: #1d1d1d;
+    overflow: hidden;
+}
+/*.body-content {
+      padding-left: 0px;  
+     padding-right: 0px;  
+}
+@media (min-width: 1200px) {
+    .container {
+          width: 100%;  
+    }
+}*/
+/*------------------
+  Review section
+---------------------*/
+
+.review-section {
+    padding-top: 120px;
+}
+
+.review-slider .rs-item {
+    text-align: center;
+    padding: 0px 30px;
+}
+
+    .review-slider .rs-item .quota {
+        width: 44px;
+        height: 44px;
+        color: #fff;
+        font-size: 30px;
+        padding-top: 8px;
+        margin: 0 auto 15px;
+    }
+
+    .review-slider .rs-item h5 {
+        margin-bottom: 35px;
+        font-weight: 500;
+    }
+
+    .review-slider .rs-item p {
+        font-weight: 500;
+        margin-bottom: 50px;
+    }
+
+    .review-slider .rs-item .review-avator {
+        width: 53px;
+        height: 53px;
+        border-radius: 50%;
+        margin: 0 auto 15px;
+    }
+
+    .review-slider .rs-item h6 {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+        .review-slider .rs-item h6 span {
+            color: #f3e830;
+        }
+/*------------------
+  Newslatter section
+---------------------*/
+
+.newslatter-section {
+    padding-top: 160px;
+    padding-bottom: 100px;
+}
+
+.newslatter-form {
+    position: relative;
+    margin-top: 15px;
+}
+
+    .newslatter-form input {
+        width: 100%;
+        height: 54px;
+        padding-right: 177px;
+        padding-left: 25px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .newslatter-form .site-btn {
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100%;
+        width: 167px;
+    }
+
+.nl-form-warp p {
+    font-size: 12px;
+    color: #fff;
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+/*------------------
+  Footer section
+---------------------*/
+
+.footer-section {
+    background: #E88E4B;
+    overflow: hidden;
+}
+
+.footer-widget h4 {
+    margin-bottom: 55px;
+}
+
+.footer-widget ul {
+    list-style: none;
+}
+
+    .footer-widget ul li a {
+        display: block;
+        color: #fff;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+.footer-logo {
+    float: left;
+}
+
+.footer-menu {
+    float: right;
+    list-style: none;
+}
+
+    .footer-menu li {
+        display: inline;
+    }
+
+        .footer-menu li a {
+            display: inline-block;
+            color: #fff;
+            font-weight: 600;
+            font-size: 16px;
+            margin-left: 35px;
+            padding: 10px 0;
+        }
+
+            .footer-menu li a:hover {
+                color: #f3e830;
+            }
+
+.footer-bottom {
+    padding-top: 40px;
+    padding-bottom: 38px;
+    border-top: 1px solid #5b5b5b;
+    overflow: hidden;
+}
+
+    .footer-bottom .social {
+        float: right;
+        margin-left: 80px;
+        padding-top: 7px;
+    }
+
+        .footer-bottom .social a {
+            color: #fff;
+            margin-left: 25px;
+            padding: 5px 1px;
+        }
+
+/*------------------
+   
+---------------------*/
